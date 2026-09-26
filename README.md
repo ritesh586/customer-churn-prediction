@@ -78,7 +78,7 @@ The dataset contains customer information such as tenure, contract type, monthly
 Clone your repository:
 
 ```bash
-git clone https://github.com/vijay23-del/Customer_Churn_Prediction_Project.git
+git clone https://github.com/ritesh586/Customer_Churn_Prediction_Project.git
 cd Customer_Churn_Prediction_Project
 ```
 
