@@ -1,0 +1,53 @@
+{
+    "accuracy": 0.7374024130589071,
+    "classification_report": {
+        "No": {
+            "precision": 0.9120198265179678,
+            "recall": 0.7111111111111111,
+            "f1-score": 0.7991313789359392,
+            "support": 1035.0
+        },
+        "Yes": {
+            "precision": 0.5033222591362126,
+            "recall": 0.8101604278074866,
+            "f1-score": 0.6209016393442623,
+            "support": 374.0
+        },
+        "accuracy": 0.7374024130589071,
+        "macro avg": {
+            "precision": 0.7076710428270903,
+            "recall": 0.7606357694592989,
+            "f1-score": 0.7100165091401007,
+            "support": 1409.0
+        },
+        "weighted avg": {
+            "precision": 0.8035365829404119,
+            "recall": 0.7374024130589071,
+            "f1-score": 0.7518227042678859,
+            "support": 1409.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            736,
+            299
+        ],
+        [
+            71,
+            303
+        ]
+    ],
+    "training_samples": 5634,
+    "test_samples": 1409,
+    "features": [
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges",
+        "Contract",
+        "InternetService",
+        "OnlineSecurity",
+        "TechSupport",
+        "PaperlessBilling",
+        "PaymentMethod"
+    ]
+}
